@@ -1,0 +1,168 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.wholepage
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.header
+{ 
+    display: flex;
+    flex-wrap: nowrap;
+    /* padding: 5%; */
+}
+.nss_logo
+{
+    float: left;
+    width: 85%;
+}
+.nit_logo
+{
+    float: right;
+    /* text-align: right; */
+}
+.navigation{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: #5B9CA2;
+    color: #F5F1D8;
+    width: 100%;
+    padding: auto;
+    flex-wrap: nowrap;
+}
+.link
+{
+    background-color: #5B9CA2;
+    text-decoration: none;
+    color: #F5F1D8;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+}
+.link:hover
+{
+    background-color: #B52735;
+}
+
+.mid
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    /* margin: auto; */
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.content
+{
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 5%;
+}
+p
+{
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#motto
+{
+    color: #B52735;
+    font-size: 30px;
+    font-weight: 300;
+    /* padding: 5%; */
+}
+.gallery
+{
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.box
+{
+    justify-self: stretch;
+    border: 2px solid #5B9CA2;
+    padding: 3%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    font-family: 'Roboto Slab', serif;
+}
+.size
+{
+    /* border: 3px solid #5B9CA2;
+    border-radius: 5px; */
+    height: 30vh;
+    width: 30vw;
+    opacity: 0.7;
+}
+.size:hover
+{
+    opacity: 1.0;
+}
+.footer1{
+    display: flex;
+    flex-direction:row;
+    height: 7vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#B52735;
+    color: #F5F1D8;
+    position: fixed;
+    bottom: 0;
+    width: 100;
+}
+.footer2{
+    display: flex;
+    flex-direction:row;
+    height: 7vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #5B9CA2;
+    color: #F5F1D8;
+    position: static;
+    bottom: 0;
+    width: 100;
+}
+.iconsize{
+    width: 20px;
+    height: 20px;
+    padding:10px
+}
+.iconsize:hover{
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+    background-color:#5B9CA2;
+}
+#text_red:hover{
+    color: #B52735;
+}
+
+@media only screen and (max-width:600px){
+    .navigation{
+        flex-direction: column; 
+        justify-content: center;
+    }
+    .header
+    {
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+}

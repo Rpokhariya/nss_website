@@ -1,0 +1,98 @@
+*{
+    margin : 0;
+    padding :0;
+    /* margin-left: 3vw;
+    margin-right: 3vw; */
+}
+body{
+    background-color: #F5F1D8;
+}
+/* .background{
+    background: url("Diverse_community_group_holding_hands_web_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    height: 100vh;
+    background-color: antiquewhite;
+    opacity: 0.1;
+}*/
+.background{
+    display: flex;
+    flex-direction: column;
+}
+.header{ 
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    padding: 10px;
+}
+.pic{
+    opacity: 0.9;
+}
+p{
+    font-size: 20px;
+    /* color: #B52735; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.navigation{
+    display: flex;
+    flex-direction:row;
+    height: 5vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #5B9CA2;
+    color: #F5F1D8;
+    position: sticky;
+    top: 0px;
+}
+.hover{
+    color: #F5F1D8;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.hover:hover{
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+    background-color: #B52735;
+    /* padding: 5px; */
+}
+
+.mid{
+    height: 2000px;
+    /* background-color: #ffc3c9; */
+}
+
+.footer{
+    display: flex;
+    flex-direction:row;
+    height: 7vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #5B9CA2;
+    color: #F5F1D8;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+#pad{
+    padding: 2px;
+}
+.iconsize{
+    width: 20px;
+    height: 20px;
+    padding:10px
+}
+.iconsize:hover{
+    /* width: 22px;
+    height: 22px; */
+    /* box-shadow: 5px; */
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+    background-color: #B52735;
+    /* padding: 10px; */
+}
+#text_red:hover{
+    color: #B52735;
+}
